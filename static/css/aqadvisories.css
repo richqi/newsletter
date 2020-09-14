@@ -1,0 +1,138 @@
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0px;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    border: 0;
+    border-bottom: 0;
+}
+
+.context {
+    font-size: 13px;
+}
+
+.list-header {
+    margin-left: 10px;
+}
+
+#helpBlock {
+    padding: 0 5px 0 5px;
+}
+
+#access li {
+    margin-left: 225px;
+}
+
+table.floatThead-table {
+    border-top: none;
+    border-bottom: none;
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+.table-hover > tbody > tr:hover {
+    /* background-color: #dff0d8 */
+}
+
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr.active:hover > th,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+    {}
+
+.aqa-ssb-row:hover {
+    background-color: #dff0d8
+}
+
+.ssb-bk {
+    background-color: #F2F2F2;
+}
+
+.aqa-ssb-row {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row-border {
+    border-left: 1px solid #ddd;
+    padding-left: 15px;
+}
+
+.checkbox {
+    padding: 5px;
+}
+
+input[type=checkbox]:checked {
+    box-shadow: 0 0 0 3px orange;
+    /* outline: 3px solid #3B99FC; */
+}
+
+
+fieldset:focus-within {
+    /* background: #dff0d8; */
+}
+
+.panel-heading .open {
+    transform: inherit;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+
+@media only screen and (max-width: 768px) {
+    #access li {
+        margin-left: 0px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* small devices (phones, 992px and down) */
+
+@media only screen and (max-width: 992px) {
+    .list-header {
+        display: none;
+    }
+
+    .row-border {
+        border-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    h4 {
+        display: none;
+    }
+    
+    .modal-body li {
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
